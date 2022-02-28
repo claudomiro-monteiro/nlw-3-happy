@@ -1,0 +1,25 @@
+:root {
+    --color-text-white: #fff;
+    --color-background: #ebf2f5;
+    --background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    --color-button: #ffd666;
+    --color-button-green: #96feff;
+    --color-rbga: rgba(0, 0, 0, 0.6);
+    --background-orphanage: #15c3d6;
+    --background-orphanage-white: #17d6eb;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: var(--color-text-white);
+    background: var(--color-background);
+}
+
+body, input, button, textearea {
+    font: 600 18px Nunito, sans serif;
+}
